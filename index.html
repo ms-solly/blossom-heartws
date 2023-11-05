@@ -5,19 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blossom & Heart - Your Premier Floral Partner</title>
     <link rel="stylesheet" href="css/flower.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
 </head>
 <body>
-    <nav class="navbar background">
-        <ul class="nav-list">
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
             <div class="logo"><img src="img/flower1.png" alt="Blossom & Heart Logo"></div>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#contactus">Contact us</a></li>
         </ul>
-        <div class="rightNav">
+        <div class="rightNav v-class-resp">
             <input type="text" name="search" id="search">
             <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
         </div>
     </nav>
 
@@ -37,7 +44,7 @@
             </div>
         </div>
     </section>
-
+<hr>
     <section class="section">
         <div class="paras">
             <p class="sectionTag textB">Bringing Nature's Beauty to Your Doorstep</p>
@@ -105,16 +112,16 @@
         <input class="form-input" type="email" name="email" id="email" placeholder="Enter Your E-mail" required />
         <text  type="text" name="text" id="text" placeholder="Enter Your message" required />
             <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Ellaborate Your Concern"></textarea>
-        <button class="btn btn-dark">Submit</button>
+        <button class="btn btn-dark btn-sm">Submit</button>
        </div>
     </section>
 
-        
-
+        <div class="space"></div>
      <footer class="background">
         <p class="text-footer">
         copyright &copy; 2023 - all rights reserved
     </p>
      </footer>
+     <script src="js/resp.js"></script>
 </body>
 </html>
